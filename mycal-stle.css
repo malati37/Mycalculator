@@ -1,0 +1,132 @@
+body {
+  background: linear-gradient(
+    180deg,
+    #df9b9b 57.2%,
+    rgba(200, 164, 247, 0) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainparent {
+  width: 500px;
+  height: 50vh;
+  background: white;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: -4px 4px 4px gray;
+}
+
+.result {
+  background: white;
+  border: 1px solid black;
+  box-shadow: -4px 4px 4px gray;
+  border-radius: 10px;
+  line-height: 3rem;
+  padding: 1rem;
+  /* text-align: end; */
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
+}
+.item > * {
+  height: 50px;
+  border: 1px solid black;
+}
+.item {
+  display: grid;
+  padding: 1rem;
+  height: 5px;
+  gap: 0.4rem;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "bb1 bb2 bb3 bb4"
+    "bb5 bb6 bb7 bb8"
+    "bb9 bb10 bb11 bb12"
+    "bb13 bb14 bb15 bb16"
+    "bb17 bb18 bb19 bb20";
+}
+.bb1 {
+  grid-area: bb1;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb2 {
+  grid-area: bb2;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb3 {
+  grid-area: bb3;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb4 {
+  grid-area: bb4;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb5 {
+  grid-area: bb5;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb6 {
+  grid-area: bb6;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb7 {
+  grid-area: bb7;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb8 {
+  grid-area: bb8;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb9 {
+  grid-area: bb9;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb10 {
+  grid-area: bb10;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb11 {
+  grid-area: bb11;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb12 {
+  grid-area: bb12;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb13 {
+  grid-area: bb13;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb14 {
+  grid-area: bb14;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb15 {
+  grid-area: bb15;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb16 {
+  grid-area: bb16;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb17 {
+  grid-area: bb17;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb18 {
+  grid-area: bb18;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb19 {
+  grid-area: bb19;
+  box-shadow: -4px 4px 4px gray;
+}
+.bb20 {
+  grid-area: bb20;
+  box-shadow: -4px 4px 4px gray;
+}
